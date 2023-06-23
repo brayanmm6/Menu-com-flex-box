@@ -1,0 +1,37 @@
+
+@media(max-width: 767px){
+    .nav-area{
+        font-size: 40px;
+        flex-direction: column;
+        height: 100%;
+    }
+
+    .menu-container{
+        height: 100%;
+        width: 100%;
+        margin-top: 50px;
+    }
+
+    .menu{
+        flex-direction: column;
+        height: 100%;
+    }
+
+    .menu li{
+        padding: 33px;
+    }
+
+    .menu li a{
+        padding: 17px 40px;
+    }
+
+    .menu li:last-child{
+        margin-bottom: 10px;
+    }
+
+    .button{
+        font-size: 18px;
+        padding: 15px 23px;
+    }
+
+}
